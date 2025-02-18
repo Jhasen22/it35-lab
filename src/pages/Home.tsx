@@ -14,12 +14,13 @@ import {
       IonTitle, 
       IonToolbar 
   } from '@ionic/react';
-  import Feed from './home-tabs/Feed';
-  import { IonReactRouter } from '@ionic/react-router';
-  import Favorites from './home-tabs/Favorites';
+import { IonReactRouter } from '@ionic/react-router';
 import { bookOutline, search, star } from 'ionicons/icons';
 import { Route, Redirect } from 'react-router';
-import Search from './home-tabs/Search';
+import Favorites from './home/home-tabs/Favorites';
+import Feed from './home/home-tabs/Feed';
+import Search from './home/home-tabs/Search';
+
 
   const Home: React.FC = () => {
     const tabs = [
