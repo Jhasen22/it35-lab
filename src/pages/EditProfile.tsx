@@ -7,7 +7,7 @@ import {
 import { supabase } from '../utils/supabaseClient';
 import { useHistory } from 'react-router-dom';
 
-const EditProfile: React.FC = () => {
+const EditProfilePage: React.FC = () => {
     const [email, setEmail] = useState('');
     const [currentPassword, setCurrentPassword] = useState('');
     const [password, setPassword] = useState('');
@@ -175,7 +175,7 @@ const EditProfile: React.FC = () => {
         <IonContent className="ion-padding">
           <IonItem>
             <IonText color="secondary">
-              <h1>Edit Profile</h1>
+              <h1>Edit Account</h1>
             </IonText>
           </IonItem>
           <br />
@@ -323,4 +323,4 @@ const EditProfile: React.FC = () => {
     );
   };
   
-  export default EditProfile;
+  export default EditProfilePage;
