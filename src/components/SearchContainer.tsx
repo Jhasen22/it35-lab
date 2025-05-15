@@ -10,9 +10,9 @@ const CleanEarthSearch: React.FC<SearchContainerProps> = ({ placeholder = 'Searc
   const [searchText, setSearchText] = useState('');
 
   const items = [
-    'PICKACHU',
-    'ASH',
-    'ARCHEUS',
+    'CODING',
+    'APP DEVELOPING',
+    'web DEVELOPING',
 
   ];
 

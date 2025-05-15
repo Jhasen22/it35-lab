@@ -4,9 +4,9 @@ import { heart, heartOutline } from 'ionicons/icons';
 
 const CleanEarthFavorites: React.FC = () => {
   const [favorites, setFavorites] = useState<{ title: string; img: string; liked: boolean }[]>([
-    { title: 'PICKACHU', img: 'https://i.pinimg.com/originals/8a/81/ec/8a81ecd8fdd266b3221da325875c0ea8.gif', liked: false },
-    { title: 'ASH', img: 'https://i.pinimg.com/originals/ea/f8/de/eaf8de3b9b7dfb994430fe8999c76f3b.gif', liked: false },
-    { title: 'ARCHEUS', img: 'https://i.pinimg.com/originals/7f/88/d8/7f88d8e496fb3555ebbe88c0edfea6d2.gif', liked: false }
+    { title: 'CODING', img: 'https://media2.giphy.com/media/qgQUggAC3Pfv687qPC/200w.gif?cid=6c09b952k2ksls97krspmveayn05lb6eg2hz1h2dnzfa39qg&ep=v1_gifs_search&rid=200w.gif&ct=g', liked: false },
+    { title: 'WEB DEVELOPING', img: 'https://i.pinimg.com/originals/2a/53/65/2a53651a35816f499270d8275fd5318f.gif/', liked: false },
+    { title: 'APP DEVELOPING', img: 'https://i.pinimg.com/originals/7c/4e/b6/7c4eb6fa3c754c7aab0863f107f15f3a.gif', liked: false }
   ]);
 
   const toggleLike = (index: number) => {
